@@ -22,7 +22,7 @@ from miscc.utils import compute_transformation_matrix, compute_transformation_ma
 from miscc.utils import load_validation_data, pad_imgs
 
 from tensorboard import summary
-from tensorboard import FileWriter
+from tensorflow.summary import FileWriter
 
 class GANTrainer(object):
     def __init__(self, output_dir):
